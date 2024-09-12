@@ -100,7 +100,7 @@ const useStyles = makeStyles()((theme) => ({
         gridTemplateColumns: 'repeat(6, 2fr)',
       },
       '& .footer__links': {
-        gridColumn: '2/8',
+        gridColumn: '1/8',
         display: 'grid',
         gridTemplateColumns: 'repeat(3, 1fr)',
         marginTop: 0,
