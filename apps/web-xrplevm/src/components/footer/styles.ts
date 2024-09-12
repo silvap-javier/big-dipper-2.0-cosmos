@@ -97,7 +97,7 @@ const useStyles = makeStyles()((theme) => ({
       },
       '& .footer': {
         display: 'grid',
-        gridTemplateColumns: 'repeat(8, 1fr)',
+        gridTemplateColumns: 'repeat(6, 2fr)',
       },
       '& .footer__links': {
         gridColumn: '2/8',

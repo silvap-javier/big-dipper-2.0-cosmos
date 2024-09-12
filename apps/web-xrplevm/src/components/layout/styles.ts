@@ -70,11 +70,12 @@ const useStyles = makeStyles()((theme) => ({
       "url('https://governance.xrplevm.org/xrp/_next/static/media/bg-bottom.b0d91a03.png')",
     backgroundRepeat: 'no-repeat',
     position: 'absolute',
-    height: '1017px',
-    width: ' 288px',
+    height: '436px',
+    width: ' 204px',
     zIndex: -2,
     bottom: 0,
     right: 0,
+    backgroundSize: 'contain',
   },
 }));
 
