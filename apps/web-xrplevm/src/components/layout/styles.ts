@@ -20,7 +20,6 @@ const useStyles = makeStyles()((theme) => ({
       position: 'relative',
       zIndex: 1299,
       background: 'transparent',
-      backdropFilter: 'blur(8px)',
     },
     '& .footer__logo--container': {
       display: 'none',
@@ -66,15 +65,15 @@ const useStyles = makeStyles()((theme) => ({
     },
   },
   backgroundRight: {
+    position: 'absolute',
+    height: '436px',
+    width: '204px',
+    bottom: 0,
+    right: 0,
+    zIndex: -2,
     backgroundImage:
       "url('https://governance.xrplevm.org/xrp/_next/static/media/bg-bottom.b0d91a03.png')",
     backgroundRepeat: 'no-repeat',
-    position: 'absolute',
-    height: '436px',
-    width: ' 204px',
-    zIndex: -2,
-    bottom: 0,
-    right: 0,
     backgroundSize: 'contain',
   },
 }));

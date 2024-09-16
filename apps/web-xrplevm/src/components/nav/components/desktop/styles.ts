@@ -12,8 +12,10 @@ const useStyles = makeStyles()((theme) => {
       },
     },
     logo: {
-      width: '216px',
-      padding: theme.spacing(2, 1.75, 2.5),
+      boxSizing: 'unset',
+      width: '120px',
+      height: '41px',
+      padding: theme.spacing(2, 1.7, 2.5),
       '&:hover': {
         cursor: 'pointer',
       },
